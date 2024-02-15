@@ -1,9 +1,30 @@
 .footer_container {
     min-width: 100%;
-    min-height: 40%;
+    min-height: 30%;
     background-image: url("../../images/bg_photo_cracked_wall.jpg");
 }
 
-.footer_text {
-    color: blue;
+.footer_bg {
+    min-width: 100%;
+    min-height: 100%;
+    padding: 1em 2em;
+    background: #ffffff6b;
+    display: flex;
+    flex-direction: row;
 }
+
+.footer_logo_image {
+    width: 40%;
+    height: 30vh;
+    background-image: url("../../images/footer_logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.footer_links{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+

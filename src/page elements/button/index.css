@@ -16,9 +16,10 @@
     border-radius: 2rem;
 
     opacity: 65%;
-    transition: 300ms;
+    transition: 1s;
 }
 
 .button:hover {
   opacity: 100%;
+  cursor: pointer;
 }
