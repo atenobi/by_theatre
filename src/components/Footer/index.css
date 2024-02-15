@@ -1,0 +1,9 @@
+.footer_container {
+    min-width: 100%;
+    min-height: 40%;
+    background-image: url("../../images/bg_photo_cracked_wall.jpg");
+}
+
+.footer_text {
+    color: blue;
+}
