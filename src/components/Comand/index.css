@@ -1,0 +1,62 @@
+.comand_container {
+    width: 100%;
+    padding: 1em;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.comand_text_content {
+    width: 30%;
+}
+
+.comand_name {
+    width: 100%;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 1em;
+}
+
+.comand_bio {
+    max-width: 100%;
+    color: black;
+    font-size: .8em;
+    padding: 1em;
+}
+
+.member_photo {
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+}
+
+.comand_links {
+    display: flex;
+    flex-direction: row;
+}
+
+.comand_button {
+    width: 4em;
+    height: 4em;
+    border-color: rgb(68, 67, 67);
+    background-color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.svg_icon {
+    width: 2em;
+    height: 2em;
+}
+
+.comand_button:hover {
+    box-shadow: 0 0 25px grey;
+    fill: white;
+}

@@ -13,15 +13,7 @@
     transition: 1s;
 }
 
-.link:link {
-    color: white;
-}
-
 .link:hover {
-    color: white;
+    color: black;
     opacity: 100%;
-}
-
-.link:active {
-    color: white;
 }
