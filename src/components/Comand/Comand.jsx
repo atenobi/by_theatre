@@ -28,13 +28,27 @@ const Comand = () => {
                     <p className="comand_name">{comand[member].name} {comand[member].surname}</p>
                     <p className="comand_bio">{comand[member].bio}</p>
                     <div className="comand_links">
-                        <ImageLink element={comand[member].mail} image={"/images/icons/mail_icon.svg"} img_alt={comand[member].name}/>
-                        <ImageLink element={comand[member].insta} image={"/images/icons/insta_icon.svg"} img_alt={comand[member].name}/>
+                    {comand[member].mail ? (
+                        <>
+                            <ImageLink element={comand[member].mail} image={"/images/icons/mail_icon.svg"} img_alt={comand[member].name}/>
+                       </>
+                        ) : (
+                        <>
+                        </>
+                        )}
+                        {comand[member].insta ? (
+                        <>
+                            <ImageLink element={comand[member].insta} image={"/images/icons/insta_icon.svg"} img_alt={comand[member].name}/>
+                       </>
+                        ) : (
+                        <>
+                        </>
+                        )}
+                        
                     </div>
                 </div>
 
                 <button onClick={next} className="comand_button">
-                    <img src="/images/icons/right-arrow.svg" alt="arrow" className="svg_icon"/>
                 </button>
             </div> 
         </>

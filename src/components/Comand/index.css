@@ -4,12 +4,13 @@
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
+    position: relative;
 }
 
 .comand_text_content {
-    width: 30%;
+    width: 55%;
 }
 
 .comand_name {
@@ -39,16 +40,17 @@
 }
 
 .comand_button {
-    width: 4em;
-    height: 4em;
-    border-color: rgb(68, 67, 67);
-    background-color: white;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
     cursor: pointer;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 1s;
+    border: none;
+    position: absolute;
+    left: 0;
 }
 
 .svg_icon {
@@ -56,7 +58,24 @@
     height: 2em;
 }
 
-.comand_button:hover {
-    box-shadow: 0 0 25px grey;
-    fill: white;
+@media only screen and (max-width: 768px) {
+    .member_photo {
+        width: 25%;
+        height: 25%;
+        border-radius: 50%;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .comand_container {
+        width: 100%;
+        padding: 1em;
+        font-family: "Roboto", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        position: relative;
+    }
 }

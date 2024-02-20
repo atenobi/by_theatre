@@ -3,7 +3,7 @@
     width: 100%;
     height: 1em;
     /* background-image: url("../../images/bg_photo_cracked_wall.jpg"); */
-    position: sticky;
+    position: fixed;
     bottom: 0;
     transition: 2s;
 }
@@ -19,6 +19,7 @@
     background: white;
     display: flex;
     flex-direction: row;
+    margin-top: 1em;
 }
 
 .footer_logo_image {

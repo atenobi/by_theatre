@@ -2,11 +2,11 @@ import React from "react";
 
 import "./index.css";
 
-const Button = ({ element, text }) => (
+const Button = ({ element, text, href }) => (
     <div className="button_container">
-        <button className="button" link={element}>
+        <a className="button" link={element} href={href}>
             {text}
-        </button>
+        </a>
     </div>
 );
 
