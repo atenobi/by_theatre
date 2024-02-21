@@ -32,7 +32,7 @@ const Comand = () => {
                     <div className="comand_links">
                     {comand[member].mail ? (
                         <>
-                            <ImageLink element={comand[member].mail} image={"/images/icons/mail_icon.svg"} img_alt={comand[member].name}/>
+                            <ImageLink element={comand[member].mail} image={"../../assets/icons/mail_icon.svg"} img_alt={comand[member].name}/>
                        </>
                         ) : (
                         <>
@@ -40,7 +40,7 @@ const Comand = () => {
                         )}
                         {comand[member].insta ? (
                         <>
-                            <ImageLink element={comand[member].insta} image={"/images/icons/insta_icon.svg"} img_alt={comand[member].name}/>
+                            <ImageLink element={comand[member].insta} image={"../../assets/icons/insta_icon.svg"} img_alt={comand[member].name}/>
                        </>
                         ) : (
                         <>
