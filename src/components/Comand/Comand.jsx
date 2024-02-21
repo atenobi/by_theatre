@@ -27,6 +27,8 @@ const Comand = () => {
                 <div className="comand_text_content">
                     <p className="comand_name">{comand[member].name} {comand[member].surname}</p>
                     <p className="comand_bio">{comand[member].bio}</p>
+                    <button onClick={next} className="comand_button">
+                    </button>
                     <div className="comand_links">
                     {comand[member].mail ? (
                         <>
@@ -48,8 +50,7 @@ const Comand = () => {
                     </div>
                 </div>
 
-                <button onClick={next} className="comand_button">
-                </button>
+               
             </div> 
         </>
         );

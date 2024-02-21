@@ -51,6 +51,7 @@
     border: none;
     position: absolute;
     left: 0;
+    top: 0;
 }
 
 .svg_icon {
@@ -63,6 +64,10 @@
         width: 25%;
         height: 25%;
         border-radius: 50%;
+    }
+
+    .comand_button {
+        height: 85%;
     }
     
 }
