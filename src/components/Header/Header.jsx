@@ -7,8 +7,8 @@ import "./index.css";
 const Header = () => (
     <section className="header_container">
         <div className="header_menu">
-            {/* <Button element={'$'} text={"Падтрымка"} /> */}
-            {/* <Button element={'$'} text={"Удзельнікі"}/>
+            {/* <Button element={'$'} text={"Падтрымка"} />
+            <Button element={'$'} text={"Удзельнікі"}/>
             <Button element={'$'} text={"Праекты"} />
             <Button element={'$'} text={"Кантакты"} /> */}
         </div>  

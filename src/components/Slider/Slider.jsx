@@ -41,7 +41,7 @@ const Slider = () => {
         >
         {comand.map(element => {
             return(
-            <SwiperSlide >
+            <SwiperSlide key={element.surname}>
                 <img className="slider_image" src={element.photo} alt={element.name}></img>
                 <p className="slider_text">{element.bio}</p>
                 <div className="slider_icon_container">
