@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/by_theatre/static/css/main.758fbc71.css",
+    "main.js": "/by_theatre/static/js/main.161b020f.js",
+    "static/js/592.719e5aa7.chunk.js": "/by_theatre/static/js/592.719e5aa7.chunk.js",
+    "static/media/lera_photo.jpg": "/by_theatre/static/media/lera_photo.2e7b16b8b1940f95f730.jpg",
+    "static/media/andrey_n_photo.jpg": "/by_theatre/static/media/andrey_n_photo.130801d82321c3e0d3b9.jpg",
+    "static/media/max_photo.jpg": "/by_theatre/static/media/max_photo.11783a0f46b471bf7b18.jpg",
+    "static/media/masha_photo.jpg": "/by_theatre/static/media/masha_photo.f37140b932b20a6ecef5.jpg",
+    "static/media/dasha_photo.jpg": "/by_theatre/static/media/dasha_photo.9d1a48db9d2f56fcb900.jpg",
+    "static/media/bg_photo_cracked_wall.jpg": "/by_theatre/static/media/bg_photo_cracked_wall.689ac5dc558cdc3e8b6f.jpg",
+    "static/media/main_logo.png": "/by_theatre/static/media/main_logo.bde3473ae4bd895fddc8.png",
+    "static/media/footer_logo.png": "/by_theatre/static/media/footer_logo.9dd9915238f076ec77ae.png",
+    "index.html": "/by_theatre/index.html",
+    "main.758fbc71.css.map": "/by_theatre/static/css/main.758fbc71.css.map",
+    "main.161b020f.js.map": "/by_theatre/static/js/main.161b020f.js.map",
+    "592.719e5aa7.chunk.js.map": "/by_theatre/static/js/592.719e5aa7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.758fbc71.css",
+    "static/js/main.161b020f.js"
+  ]
+}
