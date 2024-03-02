@@ -63,7 +63,6 @@ const Slider = () => {
             <div className="swiper-pagination"></div>
         </div>
         </Swiper>
-       
         </div>
     )
 };
