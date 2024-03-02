@@ -1,7 +1,8 @@
 import './App.css';
-import Comand from './components/Comand/Comand';
+// import Comand from './components/Comand/Comand';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
+import Slider from './components/Slider/Slider';
 
 
 function App() {
@@ -11,9 +12,10 @@ function App() {
         <div className='container header_container'>
           <Header/>
         </div>
-        <div className='container'>
+        {/* <div className='container'>
             <Comand/>
-          </div>
+        </div> */}
+        <Slider/>  
         <Footer/>
       </header>
     </div>
