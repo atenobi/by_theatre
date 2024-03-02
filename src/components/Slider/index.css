@@ -37,3 +37,26 @@
     margin: 1rem auto;
 }
 
+/* @media only screen and (max-width: 768px) {
+ 
+} */
+
+@media only screen and (max-width: 480px) {
+    .comand_slider_title {
+        font-size: 1em;
+        margin: 1rem auto;
+    }
+
+    .slider_image {
+        width: 18rem;
+        height: 18rem;
+    }
+
+    .slider_text {
+        width: 85%;
+    }
+
+    .swiper-button-prev, .swiper-button-next  {
+        visibility: hidden;
+    }
+}
