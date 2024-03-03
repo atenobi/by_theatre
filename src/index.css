@@ -37,13 +37,22 @@ code {
 }
 
 .header_container {
-  min-width: 80vw;
+  min-width: 100vw;
   max-height: 90vh;
+  background-size: cover;
+  display: flex;
+  background-position: inherit;
   background-image: url("../src/images/bg_photo_cracked_wall.jpg");
+}
+
+@media only screen and (max-width: 760px) {
+  .header_container {
+    max-height: 50vh;
+  }
 }
 
 @media only screen and (max-width: 480px) {
   .header_container {
-    max-height: 50vh;
+    max-height: 30vh;
   }
 }

@@ -2,22 +2,23 @@ import './App.css';
 // import Comand from './components/Comand/Comand';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
-import Slider from './components/Slider/Slider';
-
+import SliderComand from './components/SliderComand/SliderComand';
+import SliderProjects from './components/SliderProjects/SliderProjects';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="app-body">
         <div className='container header_container'>
           <Header/>
         </div>
         {/* <div className='container'>
             <Comand/>
         </div> */}
-        <Slider/>  
+        <SliderComand/>  
+        <SliderProjects/> 
         <Footer/>
-      </header>
+        </div>
     </div>
   );
 }

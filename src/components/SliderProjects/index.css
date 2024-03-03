@@ -1,0 +1,66 @@
+.project_slider_title {
+    font-size: 2em;
+    padding: 10px;
+    margin: 5rem auto;
+    color: black;
+    font-family: Roboto, sans-serif;
+}
+
+.slider_content {
+    text-align: center;
+}
+
+.custom_swiper {
+    max-width: 1240px;
+    width: 90%;
+}
+
+.slider_text {
+    color: black;
+    width: 50%;
+    padding: 10px;
+    font-size: .9em;
+    font-family: Roboto, sans-serif;
+    margin: 0 auto;
+}
+
+.project_image {
+    width: 13rem;
+    height: 13rem;
+    border-radius: 10%;
+}
+
+.slider_link_icon {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+
+.swiper-pagination {
+    position: relative !important;
+    margin: 1rem auto;
+}
+
+.project_description {
+    color: black;
+    width: 100%;
+    padding: 0 5em;
+}
+
+/* @media only screen and (max-width: 768px) {
+ 
+} */
+
+@media only screen and (max-width: 480px) {
+    .project_description {
+        padding: 0 1em;
+    }
+
+    .slider_text {
+        width: 85%;
+    }
+
+    .swiper-button-prev, .swiper-button-next  {
+        visibility: hidden;
+    }
+}

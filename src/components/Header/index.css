@@ -20,6 +20,7 @@
     background-image: url("../../images/main_logo.png");
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: top;
     opacity: 50%;
     transition: 3s;
 }

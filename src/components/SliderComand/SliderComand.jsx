@@ -12,7 +12,7 @@ import {EffectCoverflow, Pagination, Navigation} from "swiper/modules";
 
 import comand from "../../content/comand/comand";
 
-const Slider = () => {
+const SliderComand = () => {
     return (
         <div className = "custom_swiper">
         <h1 className="comand_slider_title">Каманда</h1>
@@ -43,10 +43,16 @@ const Slider = () => {
             return(
             <SwiperSlide key={element.surname}>
                 <img className="slider_image" src={element.photo} alt={element.name}></img>
+                <p className="slider_text">{element.name} {element.surname}</p>
                 <p className="slider_text">{element.bio}</p>
                 <div className="slider_icon_container">
+                    <a className="slider_link_icon" href={element.face}><ion-icon name="logo-facebook"></ion-icon></a>
                    <a className="slider_link_icon" href={element.insta}><ion-icon name="logo-instagram"></ion-icon></a>
-                   <a className="slider_link_icon" href={element.mail}><ion-icon name="mail-open-outline"></ion-icon></a>
+                   {element.mail ? <a className="slider_link_icon" href={element.mail}><ion-icon name="mail-open-outline"></ion-icon></a>
+                    :
+                    <></>   
+                    }
+                   
                 </div>
             </SwiperSlide>
             )  
@@ -67,4 +73,4 @@ const Slider = () => {
     )
 };
 
-export default Slider;
+export default SliderComand;
