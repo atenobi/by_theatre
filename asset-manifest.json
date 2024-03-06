@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/by_theatre/static/css/main.0d06b3fe.css",
-    "main.js": "/by_theatre/static/js/main.d0305bb5.js",
-    "static/js/592.719e5aa7.chunk.js": "/by_theatre/static/js/592.719e5aa7.chunk.js",
-    "static/media/lera_photo.jpg": "/by_theatre/static/media/lera_photo.2e7b16b8b1940f95f730.jpg",
-    "static/media/andrey_n_photo.jpg": "/by_theatre/static/media/andrey_n_photo.130801d82321c3e0d3b9.jpg",
-    "static/media/max_photo.jpg": "/by_theatre/static/media/max_photo.11783a0f46b471bf7b18.jpg",
-    "static/media/masha_photo.jpg": "/by_theatre/static/media/masha_photo.f37140b932b20a6ecef5.jpg",
-    "static/media/dasha_photo.jpg": "/by_theatre/static/media/dasha_photo.9d1a48db9d2f56fcb900.jpg",
-    "static/media/more_afisha.jpg": "/by_theatre/static/media/more_afisha.57afd4a9b1c687d14ea5.jpg",
-    "static/media/zamova_afisha.png": "/by_theatre/static/media/zamova_afisha.d9d8b5c80417387f7425.png",
-    "static/media/galera_afisha.png": "/by_theatre/static/media/galera_afisha.4b1d74dd077dd99e1d83.png",
-    "static/media/how_are_you_afisha.jpg": "/by_theatre/static/media/how_are_you_afisha.24750cd5436e64798933.jpg",
-    "static/media/bg_photo_cracked_wall.jpg": "/by_theatre/static/media/bg_photo_cracked_wall.689ac5dc558cdc3e8b6f.jpg",
-    "static/media/main_logo.png": "/by_theatre/static/media/main_logo.bde3473ae4bd895fddc8.png",
-    "static/media/footer_logo.png": "/by_theatre/static/media/footer_logo.9dd9915238f076ec77ae.png",
-    "index.html": "/by_theatre/index.html",
-    "main.0d06b3fe.css.map": "/by_theatre/static/css/main.0d06b3fe.css.map",
-    "main.d0305bb5.js.map": "/by_theatre/static/js/main.d0305bb5.js.map",
-    "592.719e5aa7.chunk.js.map": "/by_theatre/static/js/592.719e5aa7.chunk.js.map"
+    "main.css": "/static/css/main.726a1dde.css",
+    "main.js": "/static/js/main.9319d553.js",
+    "static/js/592.2c0197d3.chunk.js": "/static/js/592.2c0197d3.chunk.js",
+    "static/media/lera_photo.jpg": "/static/media/lera_photo.2e7b16b8b1940f95f730.jpg",
+    "static/media/andrey_n_photo.jpg": "/static/media/andrey_n_photo.130801d82321c3e0d3b9.jpg",
+    "static/media/max_photo.jpg": "/static/media/max_photo.11783a0f46b471bf7b18.jpg",
+    "static/media/masha_photo.jpg": "/static/media/masha_photo.f37140b932b20a6ecef5.jpg",
+    "static/media/dasha_photo.jpg": "/static/media/dasha_photo.9d1a48db9d2f56fcb900.jpg",
+    "static/media/more_afisha.jpg": "/static/media/more_afisha.57afd4a9b1c687d14ea5.jpg",
+    "static/media/zamova_afisha.png": "/static/media/zamova_afisha.d9d8b5c80417387f7425.png",
+    "static/media/galera_afisha.png": "/static/media/galera_afisha.4b1d74dd077dd99e1d83.png",
+    "static/media/how_are_you_afisha.jpg": "/static/media/how_are_you_afisha.24750cd5436e64798933.jpg",
+    "static/media/bg_photo_cracked_wall.jpg": "/static/media/bg_photo_cracked_wall.689ac5dc558cdc3e8b6f.jpg",
+    "static/media/main_logo.png": "/static/media/main_logo.bde3473ae4bd895fddc8.png",
+    "static/media/footer_logo.png": "/static/media/footer_logo.9dd9915238f076ec77ae.png",
+    "index.html": "/index.html",
+    "main.726a1dde.css.map": "/static/css/main.726a1dde.css.map",
+    "main.9319d553.js.map": "/static/js/main.9319d553.js.map",
+    "592.2c0197d3.chunk.js.map": "/static/js/592.2c0197d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d06b3fe.css",
-    "static/js/main.d0305bb5.js"
+    "static/css/main.726a1dde.css",
+    "static/js/main.9319d553.js"
   ]
 }
