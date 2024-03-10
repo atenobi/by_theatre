@@ -1,7 +1,7 @@
 import './App.css';
-// import Comand from './components/Comand/Comand';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
+import Maininfo from './components/Maininfo/Maininfo';
 import SliderComand from './components/SliderComand/SliderComand';
 import SliderProjects from './components/SliderProjects/SliderProjects';
 
@@ -12,11 +12,9 @@ function App() {
         <div className='container header_container'>
           <Header/>
         </div>
-        {/* <div className='container'>
-            <Comand/>
-        </div> */}
-        <SliderComand/>  
-        <SliderProjects/> 
+        <Maininfo/>
+        <SliderProjects/>
+        <SliderComand/>
         <Footer/>
         </div>
     </div>

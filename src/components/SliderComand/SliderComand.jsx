@@ -46,8 +46,14 @@ const SliderComand = () => {
                 <p className="slider_text">{element.name} {element.surname}</p>
                 <p className="slider_text">{element.bio}</p>
                 <div className="slider_icon_container">
-                    <a className="slider_link_icon" href={element.face}><ion-icon name="logo-facebook"></ion-icon></a>
-                   <a className="slider_link_icon" href={element.insta}><ion-icon name="logo-instagram"></ion-icon></a>
+                   {element.face ? <a className="slider_link_icon" href={element.face}><ion-icon name="logo-facebook"></ion-icon></a>
+                   :
+                   <></>
+                    }
+                   {element.insta ? <a className="slider_link_icon" href={element.insta}><ion-icon name="logo-instagram"></ion-icon></a>
+                   :
+                   <></>
+                    }
                    {element.mail ? <a className="slider_link_icon" href={element.mail}><ion-icon name="mail-open-outline"></ion-icon></a>
                     :
                     <></>   
