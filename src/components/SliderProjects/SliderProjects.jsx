@@ -8,6 +8,8 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
+import TextAccordeon from "../../page elements/TextAccordeon/TextAccordeon";
+
 import {EffectCoverflow, Pagination, Navigation} from "swiper/modules";
 
 import projects from "../../content/projects/projects";
@@ -50,7 +52,9 @@ const SliderProjects = () => {
                     <p className="slider_text">Музыка: {element.music}</p>
                     <p className="slider_text">Прэмьера: {element.premiere}</p>
                     <br/>
-                    <p className="project_description">{element.discription}</p>
+                    
+                    <TextAccordeon title={"Апісанне"} text={element.discription} />
+                    {/* <p className="project_description">{element.discription}</p> */}
                     <p className="slider_text">Працягласць: {element.time}</p>
                 </div>
             </SwiperSlide>

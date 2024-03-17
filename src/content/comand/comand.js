@@ -5,6 +5,7 @@ import masha from "../../assets/images/masha_photo.jpg";
 import lera from "../../assets/images/lera_photo.jpg"
 import vlad from "../../assets/images/vlad_photo.jpg";
 import mikita from "../../assets/images/mikita_photo.jpg";
+import lesha from "../../assets/images/lesha_photo.png";
 
 const comand = [
     {
@@ -100,6 +101,19 @@ const comand = [
         У Варшаве скончыў курс акторскай майстэрства "Квадрат", пад кіраўніцтвам Макіма Шышко.
         Дэбютная роля - Вася "Мора Хрысціны" рэж. А.Новік.`,
         insta: "https://www.instagram.com/diadiafi0d0r/",
+    },
+    {
+        name: "Аляксей",
+        surname: "Сапрыкін",
+        photo: lesha,
+        profession: "актор",
+        bio: `У 2017 годзе скончыў Еўрапейскі гуманітарны ўніверсітэт па спецыяльнасці
+        “Візуальная культура (кіно, тэлевізія, інтэрнэт)”, а таксама тэатральную студыю Fortinbras пры Беларускім свабодным тэатры. 
+        У 2015 годзе ўдзельнічаў у тэатральным абмене Erasmus + у горадзе Эслов (Швэцыя). Граў у БСТ з 2016 па 2022 год
+        У 2019 годзе ўвайшоў у “топ 10 маладых актораў за якімі варта сачыць” па версіі інтэрнэт-часопіса 34mag.net 
+        З 2022 года жыве і працуе ў Польшчы.`,
+        insta: "https://www.instagram.com/aleks.saprykin/",
+        face: "https://www.facebook.com/mielasz",
     },
 ];
 

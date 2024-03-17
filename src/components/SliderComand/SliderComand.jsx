@@ -3,6 +3,7 @@ import {Swiper, SwiperSlide} from "swiper/react";
 
 import "./index.css"
 
+import TextAccordeon from "../../page elements/TextAccordeon/TextAccordeon";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
@@ -44,7 +45,7 @@ const SliderComand = () => {
             <SwiperSlide key={element.surname}>
                 <img className="slider_image" src={element.photo} alt={element.name}></img>
                 <p className="slider_text">{element.name} {element.surname}</p>
-                <p className="slider_text">{element.bio}</p>
+                <TextAccordeon title={"Біаграфія"} text={element.bio} />
                 <div className="slider_icon_container">
                    {element.face ? <a className="slider_link_icon" href={element.face}><ion-icon name="logo-facebook"></ion-icon></a>
                    :

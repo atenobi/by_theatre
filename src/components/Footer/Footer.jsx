@@ -9,10 +9,11 @@ const Footer = () => (
             <div className="footer_logo_image"> 
             </div>
             <div className="footer_links">
-                <Link element={`mailto:andrei.novik89@mail.ru`} text={"Пошта"} />
+                <Link element={`mailto:byteatar@gmail.com`} text={"Пошта"} />
                 <Link element={"https://t.me/BYteatr"} text={"Тэлеграм"} />
-                <Link element={`tel:+48518445425`} text={"Нумар для сувязі"} />
                 <Link element={"https://www.instagram.com/by.teatr/"} text={"Інстаграм"} />
+                <Link element={"https://m.facebook.com/profile.php?id=100090755918014"} text={"Фэйсбук"} />
+                <Link element={`tel:+48518445425`} text={"Нумар для сувязі"} />
             </div>    
         </div>
     </div>

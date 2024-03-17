@@ -5,6 +5,8 @@ import Maininfo from './components/Maininfo/Maininfo';
 import SliderComand from './components/SliderComand/SliderComand';
 import SliderProjects from './components/SliderProjects/SliderProjects';
 
+import "bootstrap/dist/css/bootstrap.min.css";
+
 function App() {
   return (
     <div className="App">
