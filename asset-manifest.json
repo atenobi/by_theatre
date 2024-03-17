@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.c2a51248.css",
-    "main.js": "/static/js/main.b8160e91.js",
+    "main.css": "/static/css/main.0ff613c6.css",
+    "main.js": "/static/js/main.1e5e4549.js",
     "static/js/592.2c0197d3.chunk.js": "/static/js/592.2c0197d3.chunk.js",
     "static/media/andrey_n_photo.jpg": "/static/media/andrey_n_photo.130801d82321c3e0d3b9.jpg",
     "static/media/dasha_photo.jpg": "/static/media/dasha_photo.9d1a48db9d2f56fcb900.jpg",
     "static/media/more_afisha.jpg": "/static/media/more_afisha.57afd4a9b1c687d14ea5.jpg",
     "static/media/zamova_afisha.png": "/static/media/zamova_afisha.d9d8b5c80417387f7425.png",
+    "static/media/lesha_photo.png": "/static/media/lesha_photo.e2c2def5ba17ad9e15c6.png",
     "static/media/galera_afisha.png": "/static/media/galera_afisha.4b1d74dd077dd99e1d83.png",
     "static/media/lera_photo.jpg": "/static/media/lera_photo.931b28bbf0c56d17185f.jpg",
     "static/media/how_are_you_afisha.jpg": "/static/media/how_are_you_afisha.24750cd5436e64798933.jpg",
@@ -18,12 +19,12 @@
     "static/media/main_logo.png": "/static/media/main_logo.bde3473ae4bd895fddc8.png",
     "static/media/footer_logo.png": "/static/media/footer_logo.9dd9915238f076ec77ae.png",
     "index.html": "/index.html",
-    "main.c2a51248.css.map": "/static/css/main.c2a51248.css.map",
-    "main.b8160e91.js.map": "/static/js/main.b8160e91.js.map",
+    "main.0ff613c6.css.map": "/static/css/main.0ff613c6.css.map",
+    "main.1e5e4549.js.map": "/static/js/main.1e5e4549.js.map",
     "592.2c0197d3.chunk.js.map": "/static/js/592.2c0197d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2a51248.css",
-    "static/js/main.b8160e91.js"
+    "static/css/main.0ff613c6.css",
+    "static/js/main.1e5e4549.js"
   ]
 }
